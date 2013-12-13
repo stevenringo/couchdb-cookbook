@@ -40,7 +40,7 @@ when "debian"
   )
 
 when "rhel", "fedora"
-  include_recipe "yum::epel"
+  include_recipe "yum-epel"
 
   dev_pkgs += [
     "which",
